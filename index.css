@@ -1,0 +1,198 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: black;
+}
+/*header*/
+header{
+    background-color:#e02d36 ;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    position:relative;
+    position: fixed;
+    z-index: 100;
+}
+.img-logo{   
+    background-image: url("https://www.ldavinci.edu.pe/wp-content/themes/davinci/images/logo-white.png");
+    width: 150px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    padding: 20px;
+    background-color: #e02d36;
+    width: 100%;
+}
+.nav a{
+    display: inline-block;
+   margin-right: 5% ; 
+   text-decoration: none;
+   color: #ffff;
+   font-weight: normal;
+}
+.nav a:hover{
+    color: #2a2c31;
+}
+/*main*/
+main{
+    padding-top: 80px;
+}
+.img-main{ 
+    background-image: url("https://www.ldavinci.edu.pe/wp-content/uploads/2019/11/contactenos2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 50%;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+h1{
+    color: #ffff;
+    position: absolute;
+    top: 40%;
+    font-size: 3rem;
+}
+.h1 a{
+    position: absolute;
+    top: 50%;
+    text-decoration: none;
+    background-color: #e02d36;
+    padding: 15px;
+    font-size: 1.1rem;
+    color: #ffff;
+    border-radius: 5px;
+    letter-spacing: 0.2mm;
+    font-family: sans-serif;
+}
+.h1 a:hover{
+    background-color: #e02d30;
+}
+.card-container{
+    display: flex;
+    width: 100%;
+    height: 650px;
+    flex-wrap: wrap;
+    padding: 1%;
+    justify-content: center;
+    background-color:#e02d36;
+}
+.card{
+    background-color: #F0FCFB ;
+    margin: 50px;
+    width: 70%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    bottom: 100px;
+}
+h3{
+    color: #e55159;
+    font-size: 25px;
+    padding-top: 50px;
+}
+.card p{
+    padding: 10%;
+    font-size: 1.8rem;
+    padding-top: 0;
+    line-height: 15mm;
+}
+.card-container2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    flex-wrap: wrap;
+    background-color: #ffff;
+}
+.level{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ffff;
+    padding-top: 50px;
+}
+#img-lev1{
+    background-image: url("https://www.ldavinci.edu.pe/wp-content/uploads/2020/10/juego-Kinder-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 400px;
+}
+#img-lev2{
+    background-image: url("https://www.ldavinci.edu.pe/wp-content/uploads/2020/09/portada2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 400px;
+}
+#img-lev3{
+    background-image: url("https://www.ldavinci.edu.pe/wp-content/uploads/2019/11/DaVinci_4b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 400px;
+}
+.parrafo{
+    width: 40%;
+    height: 500px;
+    padding: 5%;
+    font-size: 1.6rem;
+    text-align: center;
+}
+/*footer*/
+footer{
+    width: 100%;
+    height: auto;
+    background-color:#2a2c31;
+    display: flex;
+    justify-content: center;
+}
+.img-footer{
+    padding: 5%;
+    height: 16rem;
+}
+ul{
+    margin: 2%;
+    line-height: 9mm;
+}
+ul li{
+    list-style: none;   
+}
+ul li a {
+    text-decoration: none;
+    color: #6d6e70;
+    font-size: 0.8rem;
+}
+ul a:hover{
+    color:#ffff;
+}
+
